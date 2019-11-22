@@ -122,6 +122,15 @@ a:active {
   justify-content: center;
   align-items: center;
 }
+.segundaSeccion{
+  background-color:deeppink;
+
+}
+
+#seccionDos{
+  display:flex;
+  flex-direction:row;
+}
 .fas.fa-search {
   margin-right: 5px;
   font-size: larger;
