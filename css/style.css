@@ -121,15 +121,16 @@ a:active {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.segundaSeccion{
-  background-color:deeppink;
-
+  height: 200px;
 }
 
-#seccionDos{
-  display:flex;
-  flex-direction:row;
+.segundaSeccion {
+  background-color: deeppink;
+}
+
+#seccionDos {
+  display: flex;
+  flex-direction: row;
 }
 .fas.fa-search {
   margin-right: 5px;
@@ -335,6 +336,12 @@ svg.active .svg-elem-7 {
 svg {
   width: 100px;
   height: 100px;
+}
+.btn-draw,
+.btn-erase {
+  border-radius: 1.5px;
+  padding: 1%;
+  text-align: center;
 }
 
 /*Boton*/
