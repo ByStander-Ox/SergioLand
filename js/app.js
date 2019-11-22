@@ -1,3 +1,4 @@
+import Typed from "typed.js";
 var options = {
   strings: [
     "Hola me llamo Sergio Vásquez",
