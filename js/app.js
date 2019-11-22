@@ -1,24 +1,3 @@
-import Typed from "typed.js";
-var options = {
-  strings: [
-    "Hola me llamo Sergio Vásquez",
-    "Me gusta aprender",
-    "Me gusta saber",
-    "Me gusta pensar",
-    "Me gusta conocer",
-    "Me gusta entender",
-    "Me gusta crear"
-  ],
-  typeSpeed: 100,
-  loop: true
-};
-
-var type = new Typed(".type", options);
-
-var typed = new Typed("#typed", {
-  stringsElement: "#typed-strings"
-});
-
 var mybutton = document.getElementById("myBtn");
 
 window.onscroll = function() {
