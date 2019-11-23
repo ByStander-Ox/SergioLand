@@ -11,13 +11,14 @@ var typed2 = new Typed("#typed2", {
   strings: [
     "Me llamo Sergio Vásquez",
     "Soy <strong>Estudiante</strong>",
-    "Me gusta Aprender;",
+    "Me gusta Aprender",
     "Me gusta Conocer",
     "Me gusta Programar",
     "Me gusta el Pan"
   ],
+  smartBackspace: true,
   typeSpeed: 200,
   backSpeed: 0.5,
-  fadeOut: true,
+  fadeOut: true, //maybe should change but i like the fade out
   loop: true
 });
