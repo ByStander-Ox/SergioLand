@@ -52,7 +52,70 @@ Font
     /* Safari, Android, iOS */
       url("../font/barlow/barlow-v4-latin-700.svg#Barlow") format("svg"); /* Legacy iOS */
 }
+/********************
+Typography
+********************/
 
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Barlow";
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 18px;
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 31px;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 43px;
+}
+
+h4 {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+h5 {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 500;
+}
+
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+p {
+  line-height: 23px;
+  margin-bottom: 21px;
+}
+
+a {
+  text-decoration: none;
+}
+span {
+  font: medium;
+  color: black;
+}
 /****************
 Cool transition to chaos
 ****************/
@@ -114,11 +177,12 @@ a:active {
   background-color: beige;
   background-image: url("../img/town.jpg");
   background-color: deeppink;
-
+  text-align: center;
   background-repeat: no-repeat;
   background-position: top left;
   background-attachment: fixed;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 200px;
@@ -200,6 +264,9 @@ img {
   padding-left: 10px;
   padding-right: 10px;
 }
+.header-title {
+  margin: 1%;
+}
 
 .awesome-social li {
   padding-left: 0;
@@ -219,7 +286,9 @@ img {
 }
 #Habilidades {
   background-image: url("http://i.stack.imgur.com/kx8MT.gif");
+
   background-size: cover;
+  height: 200px;
 }
 #figurita,
 #figurota {
@@ -374,40 +443,19 @@ svg {
 Media Querie
 ****************/
 @media only screen and (max-width: 992px) {
-  .type {
-    margin-left: 10%;
-  }
 }
 @media only screen and (max-width: 880px) {
-  .primeraSeccion {
-    justify-content: left;
-    font-size: 50px;
-  }
   .type {
     margin-left: 15%;
   }
 }
 @media only screen and (max-width: 768px) {
-  .primeraSeccion {
-    justify-content: left;
-    font-size: 50px;
-  }
-  .type {
-    margin-left: 15%;
-  }
   #figurita {
     display: block;
   }
 }
 
 @media only screen and (max-width: 580px) {
-  .primeraSeccion {
-    justify-content: left;
-    font-size: 40px;
-  }
-  .type {
-    margin-left: 5%;
-  }
   .btn-draw {
     display: inline-block;
     margin-bottom: 5%;
