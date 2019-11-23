@@ -125,7 +125,14 @@ a:active {
 }
 
 .segundaSeccion {
-  background-color: deeppink;
+  background-image: linear-gradient(
+    29deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(183, 8, 245, 0.7875388009207589) 13%,
+    rgba(73, 95, 23, 0.834122651852436) 50%,
+    rgba(164, 23, 41, 0.8434394220387713) 78%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }
 
 #seccionDos {
@@ -210,6 +217,15 @@ img {
   margin-top: 0;
   margin-bottom: 0;
 }
+#Habilidades {
+  background-image: url("http://i.stack.imgur.com/kx8MT.gif");
+  background-size: cover;
+}
+#figurita,
+#figurota {
+  display: none;
+}
+
 /**********************************************************
 ***********************************
 Animaciones
@@ -379,6 +395,9 @@ Media Querie
   .type {
     margin-left: 15%;
   }
+  #figurita {
+    display: block;
+  }
 }
 
 @media only screen and (max-width: 580px) {
@@ -388,5 +407,12 @@ Media Querie
   }
   .type {
     margin-left: 5%;
+  }
+  .btn-draw {
+    display: inline-block;
+    margin-bottom: 5%;
+  }
+  #figurota {
+    display: block;
   }
 }
