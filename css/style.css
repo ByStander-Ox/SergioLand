@@ -56,17 +56,13 @@ Font
 Typography
 ********************/
 
-
-
 body {
   font-family: "Barlow";
   font-weight: 400;
-  
 }
 
 h1 {
   font-size: 64px;
-  
 }
 
 h2 {
@@ -287,6 +283,7 @@ img {
   align-items: center;
   background-size: cover;
   height: auto;
+  margin-bottom: 1%;
 }
 #figurita,
 #figurota {
@@ -445,6 +442,7 @@ Media Querie
     align-items: left;
     justify-content: left;
     text-align: left;
+  }
 }
 @media only screen and (max-width: 880px) {
   .type {
@@ -464,8 +462,5 @@ Media Querie
   }
   #figurota {
     display: block;
-  }
-  .azucar {
-    flex-direction: column;
   }
 }
