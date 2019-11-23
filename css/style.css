@@ -56,20 +56,17 @@ Font
 Typography
 ********************/
 
-html {
-  font-size: 16px;
-}
+
 
 body {
   font-family: "Barlow";
   font-weight: 400;
-  font-size: 1em;
-  line-height: 18px;
+  
 }
 
 h1 {
-  font-size: 30px;
-  line-height: 31px;
+  font-size: 64px;
+  
 }
 
 h2 {
@@ -171,7 +168,7 @@ a:active {
   background-image: linear-gradient(yellow, blue);
 }
 .primeraSeccion {
-  font-size: 64px;
+  font-size: 60px;
   color: white;
   width: 1076px;
   background-color: beige;
@@ -219,6 +216,7 @@ a:active {
   height: 20px;
   margin-right: 5px;
 }
+
 img {
   max-width: 100%;
 
@@ -286,9 +284,9 @@ img {
 }
 #Habilidades {
   background-image: url("http://i.stack.imgur.com/kx8MT.gif");
-
+  align-items: center;
   background-size: cover;
-  height: 200px;
+  height: auto;
 }
 #figurita,
 #figurota {
@@ -443,6 +441,10 @@ svg {
 Media Querie
 ****************/
 @media only screen and (max-width: 992px) {
+  .primeraSeccion {
+    align-items: left;
+    justify-content: left;
+    text-align: left;
 }
 @media only screen and (max-width: 880px) {
   .type {
@@ -462,5 +464,8 @@ Media Querie
   }
   #figurota {
     display: block;
+  }
+  .azucar {
+    flex-direction: column;
   }
 }
