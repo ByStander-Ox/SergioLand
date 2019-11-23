@@ -66,7 +66,7 @@ a {
 }
 span {
   font: medium;
-  color: rgba(34, 255, 107, 0.733);
+  color: rgba(234, 7, 255, 0.733);
 }
 /****************
 Cool transition to chaos
@@ -123,7 +123,7 @@ a:active {
   background-image: linear-gradient(yellow, blue);
 }
 .primeraSeccion {
-  font-size: 20px;
+  font-size: 25px;
   color: white;
   max-width: 1076px;
   background-color: beige;
