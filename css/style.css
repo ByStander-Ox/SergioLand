@@ -73,8 +73,6 @@ Cool transition to chaos
 ****************/
 
 * {
-  max-width: 1076px;
-
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -87,8 +85,6 @@ section {
   height: auto;
 }
 footer {
-  max-width: 1076px;
-
   background-color: goldenrod;
 }
 header {
@@ -125,7 +121,7 @@ a:active {
 .primeraSeccion {
   font-size: 25px;
   color: white;
-  max-width: 1076px;
+
   background-color: beige;
   background-image: url("../img/town.jpg");
   background-color: deeppink;
@@ -133,6 +129,7 @@ a:active {
   background-repeat: no-repeat;
   background-position: top left;
   background-attachment: fixed;
+  background-size: cover;
   display: flex;
 
   justify-content: center;
@@ -215,7 +212,6 @@ img {
   margin: 0;
 }
 .main-container {
-  max-width: 1200px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
